@@ -1,5 +1,4 @@
 from flask import Flask, render_template
-# from flask_wtf.csrf import CSRFProtect
 from config import Config
 from .api.routes import api
 from .site.routes import site
